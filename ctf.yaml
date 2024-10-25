@@ -1,9 +1,24 @@
 general:
   ctf:
-    name: {{ .Env.CTF_NAME }}
-    description: |-
-      {{ .Env.CTF_DESCRIPTION }}
+    name: Hack-Havoc-CTF-2024
+    description: ""
     urls:
-      - {{ .Env.CTF_URL }}
+      - https://ctf.cybermaterial.com/challenges
     repo:
-      URL: {{ .Env.REPO_URL }}
+      URL: git@github.com:arch-err/Hack-Havoc-CTF-2024.git
+challenges:
+  - name: Cloudy_Records
+  - name: Dialing_for_Danger
+  - name: QR-azy_Mystery!
+  - name: Dir_Dash
+  - name: Pickle_Me_This_Cookie_Jar_Shenanigans
+  - name: Hackers_Fortress
+  - name: The_Curious_Case_of_the_Jumbled_Symbols
+  - name: CyberMaterialHavoc
+  - name: The_Case_of_the_Missing_Flag
+  - name: More_Like_Enig-me
+  - name: p13ces
+  - name: Incidents_in_Disguise
+  - name: Hack_Uncovered
+  - name: CyberMaterial_Edition
+  - name: APK-ocaplyse_Now
